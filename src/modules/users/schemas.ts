@@ -29,7 +29,6 @@ export const loginJsonSchema = {
 
 const assignRoleToUserBodySchema = z.object({
     userId: z.string().uuid(),
-    applicationId: z.string().uuid(),
     roleId: z.string().uuid(),
 });
 

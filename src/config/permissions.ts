@@ -1,6 +1,7 @@
 export const ALL_PERMISSIONS = [
-    "users:roles:assign",
+    "users:roles:write",
     "users:roles:delete",
+    "roles:write",
     "posts:write",
     "posts:read",
 ] as const;

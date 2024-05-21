@@ -75,7 +75,8 @@ export async function assignRoleToUserHandler(
     }>,
     reply: FastifyReply
 ) {
-    const { userId, applicationId, roleId } = request.body;
+    const applicationId = request.user.applicationId;
+    const { userId, roleId } = request.body;
 
     try {
         const result = await assignRole({
