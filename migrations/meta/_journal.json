@@ -1,0 +1,34 @@
+{
+  "version": "6",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1716286036859,
+      "tag": "0000_amazing_speed_demon",
+      "breakpoints": false
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1716286044359,
+      "tag": "0001_jazzy_leper_queen",
+      "breakpoints": false
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1716286055590,
+      "tag": "0002_tense_night_thrasher",
+      "breakpoints": false
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1716286060015,
+      "tag": "0003_nosy_vapor",
+      "breakpoints": false
+    }
+  ]
+}
