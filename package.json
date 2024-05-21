@@ -1,0 +1,31 @@
+{
+  "name": "mt-rbac-system",
+  "version": "1.0.0",
+  "description": "Multi tenanted, role based access control system",
+  "main": "src/main.ts",
+  "dependencies": {
+    "fastify": "^4.27.0",
+    "pino": "^9.1.0",
+    "pino-pretty": "^11.0.0",
+    "zennv": "^0.1.1",
+    "zod": "^3.23.8",
+    "zod-to-json-schema": "^3.23.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.10.5",
+    "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "dev": "tsx watch src/main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/github-imply869/mt-rbac-system.git"
+  },
+  "author": "Alfred Mathew",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/github-imply869/mt-rbac-system/issues"
+  },
+  "homepage": "https://github.com/github-imply869/mt-rbac-system#readme"
+}
